@@ -1,0 +1,18 @@
+<component-set>
+       <components>
+         <component>
+          <role>org.apache.maven.lifecycle.mapping.LifecycleMapping</role>
+          <role-hint>ourlifecyclepackage</role-hint>
+          <implementation>
+              org.apache.maven.lifecycle.mapping.DefaultLifecycleMapping
+          </implementation>
+          <configuration>
+              <phases>
+                 <compile>
+                   com.myApplication:myApp:lifecycleloader              
+                 </compile>
+              </phases>
+          </configuration>
+         </component>
+       </components>
+    </component-set>

@@ -1,0 +1,18 @@
+ <lifecycles>
+       <lifecycle>
+       <id>customlifecycle</id>
+         <phases>
+             <phase>
+          <id>compile</id>
+          <executions>
+              <execution>
+              <goals>
+                  <goal>lifecycleloader</goal>
+                                              
+              </goals>                        
+              </execution>
+          </executions>
+             </phase>
+         </phases>
+       </lifecycle>
+    </lifecycles>
